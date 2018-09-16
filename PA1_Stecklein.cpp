@@ -9,18 +9,36 @@ using namespace std;
 
 int main() {
 
-//print out myname & student ID
-
+  int userOption;
+  int userNum;
+  
+  
+//print out myname & student ID  
+    cout << "Traxxon Stecklein ID: 109163860" << endl;
+  
 //start loop 'choose option'
   // print out 3 options
-
+    cout << "1. Almost Always 99" << endl;
+    cout << "2. Always 3" << endl;
+    cout << "3. Exit" << endl;
+  //get user choice
+    cin << userOption;
     //option 1. almost always 99
-
+  if (userOption == 1 || "1."){
+    cout << "Please input a number: " << endl;
+    cin >> userNum;
+}
+  
     //option 2. always 3
-
+else if (userOption == 2 || "2."){
+}
     //option 3. exit
-
-//if choice not 1-3, then loop until choice is 1-3
+else if (userOption == 3 || "3.") {
+}
+    //if choice not 1-3, then loop until choice is 1-3
+  else {
+    cout << "Choice is invalid, please choose option 1, 2 or 3." << endl;
+}
 //end loop 'choice option' when valid choice is input -- continue to next step
 
     //if option 1 and number less than 10, multiply number by 10
