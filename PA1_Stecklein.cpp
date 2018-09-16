@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-  int userOption;
+  char userOption;
   int userNum;
   
   
@@ -17,27 +17,37 @@ int main() {
     cout << "Traxxon Stecklein ID: 109163860" << endl;
   
 //start loop 'choose option'
+  while ((userOtion != "C") || (userOption != "c")) {
+    
   // print out 3 options
-    cout << "1. Almost Always 99" << endl;
-    cout << "2. Always 3" << endl;
-    cout << "3. Exit" << endl;
+    cout << "A. Almost Always 99" << endl;
+    cout << "B. Always 3" << endl;
+    cout << "C. Exit" << endl;
+    
   //get user choice
     cin << userOption;
-    //option 1. almost always 99
-  if (userOption == 1 || "1."){
-    cout << "Please input a number: " << endl;
+    
+    //option A. almost always 99
+  if ((userOption == "A") || (userOption == "a")){
+    cout << "Please input a number between 0 and 99: " << endl;
     cin >> userNum;
-}
+    if (userNum <= 0 && userNum >= 99){
+    }
+    else {
+      cout << "Number not within required range, try again!" << endl;
+    }
+  }
   
-    //option 2. always 3
+    //option B. always 3
 else if (userOption == 2 || "2."){
-}
-    //option 3. exit
+  }
+    //option C. exit
 else if (userOption == 3 || "3.") {
-}
-    //if choice not 1-3, then loop until choice is 1-3
+  }
+    //if choice not A-C, then loop until choice is 1-3
   else {
-    cout << "Choice is invalid, please choose option 1, 2 or 3." << endl;
+    cout << "Choice is invalid, please choose option A, B or C." << endl;
+  }
 }
 //end loop 'choice option' when valid choice is input -- continue to next step
 
