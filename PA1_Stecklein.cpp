@@ -4,51 +4,27 @@ CSCI 1410
 Programming Assignement 1
 Outline
 */
-#include <iostream>
-using namespace std;
-
-int main() {
-
-  char userOption;
-  int userNum;
-  
   
 //print out myname & student ID  
-    cout << "Traxxon Stecklein ID: 109163860" << endl;
+    
   
 //start loop 'choose option'
-  while ((userOtion != "C") || (userOption != "c")) {
+  
     
   // print out 3 options
-    cout << "A. Almost Always 99" << endl;
-    cout << "B. Always 3" << endl;
-    cout << "C. Exit" << endl;
+    
     
   //get user choice
-    cin << userOption;
+    
     
     //option A. almost always 99
-  if ((userOption == "A") || (userOption == "a")){
-    cout << "Please input a number between 0 and 99: " << endl;
-    cin >> userNum;
-    if (userNum <= 0 && userNum >= 99){
-    }
-    else {
-      cout << "Number not within required range, try again!" << endl;
-    }
-  }
-  
+
     //option B. always 3
-else if (userOption == 2 || "2."){
-  }
+
     //option C. exit
-else if (userOption == 3 || "3.") {
-  }
+
     //if choice not A-C, then loop until choice is 1-3
-  else {
-    cout << "Choice is invalid, please choose option A, B or C." << endl;
-  }
-}
+ 
 //end loop 'choice option' when valid choice is input -- continue to next step
 
     //if option 1 and number less than 10, multiply number by 10
@@ -102,7 +78,3 @@ else if (userOption == 3 || "3.") {
 
       //give user ending message and exit Program
 
-
-
-  return 0;
-}
