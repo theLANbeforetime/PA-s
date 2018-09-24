@@ -7,8 +7,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    
+int main() 
+{    
     //print out myname & student ID
     cout << "Traxxon Stecklein ID: 109163860\n";
     
