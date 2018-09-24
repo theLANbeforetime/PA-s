@@ -3,7 +3,8 @@
  CSCI 1410
  Programming Assignement 1
  ID: 109163860
- */
+ Description: This program creates a menu with two magic math formulas and an exit option.
+*/
 #include <iostream>
 using namespace std;
 
@@ -12,19 +13,20 @@ int main()
     //print out myname & student ID
     cout << "Traxxon Stecklein ID: 109163860\n";
     
-    //start switch 'choose option'
+    //setting up variables
     int userChoice, userNum, userNumTen, specialTen = 0, specialOne, tempNum, revNum, subNum, finalNum, doubleNum, sumNum, divNum;
     bool menuOn = true;
     
     // print out 3 options
-    while (menuOn != false){
+    while (menuOn != false)
+    {
         cout << endl;
         cout << "1. Almost Always 99\n";
         cout << "2. Always 3\n";
         cout << "3. Exit\n";
-        
+        //getting user input
         cin >> userChoice;
-        
+        //starting a switch to control each part of menu
         switch (userChoice){
                 
             case 1:
@@ -33,6 +35,7 @@ int main()
                 cout << "Choose a number between 0 and 99: \n";
                 
                 cin >> userNum;
+                //forcing choice between and including 0 and 99
                 if (userNum >= 0 && userNum <= 99)
                 {
                 //adjust usernum by *10
