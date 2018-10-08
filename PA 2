@@ -1,0 +1,28 @@
+/*
+ * Traxxon Stecklein ID:
+ * Class: CSCI 1410
+ * PA 2 - Magic Eight Ball
+ * Status: Not running, just an outline
+ */
+
+
+ //include all relevant pre-processors (header, iostream, etc)
+
+
+
+
+ // start switch menu , if no valid option inform user to pick valid option
+
+    // option a: read responses from a file
+        //use function from functions.cpp to complete task
+    //option b: play magic eight ball
+        //set up rand
+        //use function from functions.cpp to pick random choice from options
+    //option c: sort by responses
+        //use function from functions.cpp to sort responses
+    //option d: sort by category
+        //use function from functions.cpp to sort by category
+    //option e: write responses to a file
+        //use function from functions.cpp to write the responses to a file
+    //option f: exit
+        //exit the program
