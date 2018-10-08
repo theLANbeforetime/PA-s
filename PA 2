@@ -9,10 +9,10 @@
  //include all relevant pre-processors (header, iostream, etc)
 
 
-
+//set up main
+//set up const arr size
 
  // start switch menu , if no valid option inform user to pick valid option
-
     // option a: read responses from a file
         //use function from functions.cpp to complete task
     //option b: play magic eight ball
@@ -26,3 +26,4 @@
         //use function from functions.cpp to write the responses to a file
     //option f: exit
         //exit the program
+
